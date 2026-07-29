@@ -10,7 +10,7 @@
 
     <properties>
         <maven.compiler.release>21</maven.compiler.release>
-        <langchain4j.version>1.12.1</langchain4j.version>
+        <langchain4j.version>1.13.0</langchain4j.version>
     </properties>
 
     <dependencyManagement>
@@ -42,6 +42,12 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-jdk14</artifactId>
             <version>2.0.17</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.13.2</version>
         </dependency>
     </dependencies>
 
