@@ -13,7 +13,7 @@ public class Test1 {
                 .build();
 
         // 1. Question simple
-        String reponse = modele.chat("Quelle est la capitale de l'Italie ?");
+        String reponse = modele.chat("Comment s'appelle le chat de Pierre ?");
         System.out.println("Question simple : " + reponse);
 
         // 2. Demande l'heure (le LLM ne peut pas la connaître en temps réel)
